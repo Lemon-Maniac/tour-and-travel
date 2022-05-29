@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="tutorial tour and travel dari YT">
-    <title>Travel</title>
-
-    <!-- link untuk font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
-    <!-- link untuk css -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- header section start  -->
-    <header>
-        <a href="#" class="logo"><span>T</span>ravel</a>
-        <nav class="navbar">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="tutorial tour and travel dari YT">
+        <title>Travel</title>
+        
+        <!-- link untuk font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        
+        <!-- link untuk css -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsif.css">
+    </head>
+    <body>
+        <!-- header section start  -->
+        <header>
+            <div class="fas fa-bars" id="menu-bar"></div>
+            <a href="#" class="logo"><span>T</span>ravel</a>
+            <nav class="navbar">
             <a href="#home">home</a>
             <a href="#book">book</a>
             <a href="#packages">packages</a>
@@ -43,7 +45,26 @@
 
     <!-- header section end -->
 
-    
+    <!-- login form container     -->
+    <div class="login-form-container">
+
+
+        <i class="fas fa-times" id="form-close"></i>
+        
+        <form action="" method="post">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter you email">
+            <input type="password" class="box" placeholder="Enter you password">
+            <input type="submit" value="login" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password <a href="#">click here</a></p>
+            <p>don't have a account ? <a href="#">register now</a></p>
+
+        </form>
+
+    </div>
+    <!-- login form end     -->
 
 
     <script src="script.js"></script>
